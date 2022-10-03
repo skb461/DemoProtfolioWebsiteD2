@@ -1,0 +1,90 @@
+
+
+font link: @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap
+
+
+
+site icon:  <link rel="shortcut icon" href="image/sakib-logo.png" type="image/x-icon">
+    		<link rel="apple-touch-icon" href="image/sakib-logo.png">
+
+
+bootstrap 4: <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  			 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  			 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+fontawesom: <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src="https://kit.fontawesome.com/357cf294b1.js" crossorigin="anonymous"></script>
+
+
+owl carousel: <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  			  <link rel="stylesheet" href="css/owl/owl.theme.default.css">
+  			  <script src="js/owl/owl.carousel.min.js"></script>
+			  <script>
+			    $('.owl-carousel').owlCarousel({
+			        loop:true,
+			        margin:5,
+			        nav:true,
+			        responsive:{
+			            0:{
+			                items:3
+			            },
+			            600:{
+			                items:3
+			            },
+			            1000:{
+			                items:3
+			            }
+			        }
+			    })
+			    $('.counter').counterUp({
+			      delay: 10,
+			      time: 1000
+			    });
+			  </script>
+
+
+jquery:	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		 <script src="js/count/jquery.counterup.min.js"></script>
+
+
+counter js:
+
+	<script>
+	    $('.counter').counterUp({
+	      delay: 10,
+	      time: 4000
+	    });
+	</script>
+
+scroll up:
+
+	<script src="js/scrl/jquery.scrollUp.min.js"></script>
+	  <script>
+	    $(function () {
+	        $.scrollUp({
+	            scrollName: 'scrollUp',      // Element ID
+	            scrollDistance: 200,         // Distance from top/bottom before showing element (px)
+	            scrollFrom: 'top',           // 'top' or 'bottom'
+	            scrollSpeed: 500,            // Speed back to top (ms)
+	            easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+	            animation: 'fade',           // Fade, slide, none
+	            animationSpeed: 400,         // Animation speed (ms)
+	            scrollTrigger: false,        // Set a custom triggering element. Can be an HTML string or jQuery object
+	            scrollTarget: false,         // Set a custom target element for scrolling to. Can be element or number
+	            scrollText: 'to top',       // Text for element, can contain HTML
+	            scrollTitle: false,          // Set a custom <a> title if required.
+	            scrollImg: true,            // Set true to use image
+	            activeOverlay: false,        // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+	            zIndex: 2147483647           // Z-Index for the overlay
+	        });
+	    });
+
+
+color: #1d1d1d
+
+
+
+1323

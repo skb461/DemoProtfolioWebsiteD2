@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 1px;
+	background-color: #1d1d1d;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #1d1d1d url('image/backgroundgif_5.gif') no-repeat center;
+	z-index: 99999;
+}
+#scrollUp{
+	background-image: url("js/scrl/sakib-logo.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
+	bottom: 20px;
+	right: 20px;
+	width: 75px;
+	height: 50px;
+}
+.Aboutme{
+	font-size: 70px;
+  	margin-top: 100px;
+}
+.head{
+	font-family: 'Bungee Outline', cursive;
+	font-size: 200px;
+}
+.head_achive{
+	font-family: 'Bungee Outline', cursive;
+	font-size: 160px;
+}
+#facebook:hover{
+	color: #3b5998;
+	transition: 0.3s ease-in-out;
+}
+#instagram:hover{
+	color: #3f729b;
+	transition: 0.3s ease-in-out;
+}
+#linkedin:hover{
+	color: #007bb6;
+	transition: 0.3s ease-in-out;
+}
+#whatsapp:hover{
+	color: #25d366;
+	transition: 0.3s ease-in-out;
+}
+#youtube:hover{
+	color: #bb0000;
+	transition: 0.3s ease-in-out;
+}
+#gmail:hover{
+	color: #ea4335;
+	transition: 0.3s ease-in-out;
+}
+.ability:hover{
+	background-image: url('image/backgroundgif_3.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
+	box-shadow: 0px 0px 30px #bababa;
+}
+.progress{
+	border: 2px inset #a1a2ab;
+	height: 30px;
+}
+.progress-bar{
+	margin-top: 5px;
+	height: 15px;
+}
+.graphys:hover{
+	background-image: url('image/backgroundgif_2.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
+	box-shadow: 0px 0px 30px #bababa;
+}
+.photo:hover{
+	background-image: url('image/backgroundgif_4.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: scroll;
+	box-shadow: 0px 0px 30px #bababa;
+}
+
+@media only screen and (max-width: 1660px) {
+ .Aboutme{
+  	font-size: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 1460px) {
+	.head{
+		font-size: 130px;
+	}
+	.head_achive{
+		font-size: 75px;
+	}
+}
+
+
+@media only screen and (max-width: 1323px) {
+	.Aboutme{
+		font-size: 45px;
+	}
+}
+
+
+@media only screen and (max-width: 1227px) {
+ .Aboutme{
+  	font-size: 32px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+ .socialMedia{
+ 	display: none;
+  }
+  .Aboutme{
+  	margin-top: 80px;
+  }
+}
+
+
+@media only screen and (max-width: 990px) {
+ .Aboutme{
+  	font-size: 26px;
+  }
+}
